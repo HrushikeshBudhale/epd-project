@@ -24,6 +24,10 @@ Connection:
     sensor
     RTC pin SDA-----> Arduino pin A4 (SDA)
     RTC pin SCL-----> Arduino pin A4 (SCL)
+    Relay 1    -----> Arduino pin 13
+    (Water Pump)
+    Relay 2    -----> Arduino pin 12
+    (Farm Lights)
     
 Features:
     1. Only one switch present on the device (power switch).
