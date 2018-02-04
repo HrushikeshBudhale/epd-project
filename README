@@ -38,10 +38,12 @@ Features:
     3. Trigger most used events using simple keypad buttons. 
     4. Turn Off/On sheduled task.
     5. Check current status of farm, anytime with just a missed call.
-    6. Remote Programming functionality for:
+    6. Remote Programming(by sending SMS) functionality for:
         a. Setting current time.
+            (e.g. set time = 25.02.17.10.45.52)
         b. Setting time for start and stop event for each task.
         c. Setting threshold for Temperature, Humidity or Moisture Sensors.
+            (e.g. set temp threshold = 29)
         d. Setting on time for events.
         e. Setting sampling interval for data logging.
     7. compact design which can fit in volume of 15 X 10 X 5 cm.
