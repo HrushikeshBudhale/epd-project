@@ -1,0 +1,53 @@
+ELECTRONIC PRODUCT DESIGN 1
+
+This project aim towards creating a product for framers. This can easily be 
+created and installed in the field using some low cost and easily available
+hardware. And can help farmers in getting current status of the field and 
+setting required threshold parameters remotely.
+
+
+This project requires components:
+    
+    1. Arduino UNO micro-controller
+    2. DHT22 (Temperature and Humidity sensor)
+    3. sim900 GSM module
+    4. DS1307 (Real time clock)
+    5. Soil Moisture Sensor
+    6. Relay (for controlling AC appliances) / or LEDs for testing
+    
+Connection:
+
+    GSM pin TX -----> Arduino pin 0 (RXD)
+    GSM pin RX -----> Arduino pin 1 (TXD)
+    DHT22      -----> Arduino pin 2
+    Soil mois. -----> Arduino pin A0
+    sensor
+    RTC pin SDA-----> Arduino pin A4 (SDA)
+    RTC pin SCL-----> Arduino pin A4 (SCL)
+    
+Features:
+    1. Only one switch present on the device (power switch).
+        Any desired setting can be done remotely through smart phone as well as
+        old mobile phones with keypad.
+    2. 2 sheduled tasks including start and stop event.
+        (e.g. turning water Pump ON at 5:00am)
+    3. Trigger most used events using simple keypad buttons. 
+    4. Turn Off/On sheduled task.
+    5. Check current status of farm, anytime with just a missed call.
+    6. Remote Programming functionality for:
+        a. Setting current time.
+        b. Setting time for start and stop event for each task.
+        c. Setting threshold for Temperature, Humidity or Moisture Sensors.
+        d. Setting on time for events.
+        e. Setting sampling interval for data logging.
+    7. compact design which can fit in volume of 15 X 10 X 5 cm.
+    
+    
+Future Scope Includes:
+    1. Interface with IOT for data logging.
+    2. Dynamically setting thresholds and events considering information
+        from weather forcast.
+    3. Network and communication of multiple sensors in large field
+        for more precise planning.
+    
+    
